@@ -1,9 +1,8 @@
-import { useTheme } from "@mui/material/styles";
 import { ThemeProvider, Typography } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 import { Box } from "@mui/system";
 import React from "react";
 import { OptionCard } from "../components/OptionCard";
-import { ChartEjemplo } from "../components/formales/chartEjemplo";
 
 export const IniciosResultados = () => {
   const theme = useTheme();
@@ -38,7 +37,7 @@ export const IniciosResultados = () => {
             ></OptionCard>
           </Box>
 
-          <Box sx={{ p: 4 }}>
+          {/* <Box sx={{ p: 4 }}>
             <OptionCard
               type={3}
               imagen="https://imagesvotacion.s3.eu-north-1.amazonaws.com/1676860250963_consulta.png"
@@ -53,7 +52,7 @@ export const IniciosResultados = () => {
               url="/resultados/noformales"
               name="OTRAS ELECCIONES"
             ></OptionCard>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </ThemeProvider>

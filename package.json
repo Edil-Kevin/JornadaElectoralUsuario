@@ -2,7 +2,7 @@
   "name": "votacionnl-frontend-usuario",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://DiegoRevilla99.github.io/VotacionNL-Frontend-Usuario",
+  "homepage": "http://Edil-Kevin.github.io/JornadaElectoralUsuario",
   "type": "module",
   "scripts": {
     "dev": "vite",
