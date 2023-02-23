@@ -1,0 +1,431 @@
+<Grid container spacing={5}>
+	<Grid
+		item
+		xs={12}
+		sm={12}
+		md={6}
+		lg={6}
+		sx={{ height: "100%", paddingTop: "0 !important" }}
+		minHeight="40rem"
+	>
+		<Grid container spacing={5} sx={{ height: "100%" }}>
+			<Grid item xs={12} sx={{ height: "66%" }} minHeight="20rem">
+				<Box
+					boxShadow={shadow}
+					display="flex"
+					flexDirection={"column"}
+					justifyContent={"center"}
+					alignItems="center"
+					borderRadius={borde}
+					sx={{
+						cursor: "pointer",
+						backgroundColor: "primary.main",
+						height: "100%",
+						transition: "all 0.5s ease",
+						width: "100%",
+						// borderRadius: "2rem 2rem 2rem 2rem",
+						"&:hover": {
+							transform: "translate(-5px, -5px)",
+							boxShadow: 10,
+						},
+					}}
+				>
+					{/* <SvgIcon
+									sx={{ height: "13rem", width: "13rem", color: "base.main" }}
+								>
+									<HowToVoteIcon />
+								</SvgIcon>
+								<Typography variant="h3" color={"base.main"} textAlign="center">
+									Votar
+								</Typography> */}
+				</Box>
+			</Grid>
+			<Grid item xs={12} sx={{ height: "33%" }} minHeight="8rem">
+				<Box
+					boxShadow={shadow}
+					display="flex"
+					flexDirection={"column"}
+					justifyContent={"center"}
+					alignItems="center"
+					borderRadius={borde}
+					sx={{
+						cursor: "pointer",
+						backgroundColor: "primary.main",
+						height: "100%",
+						transition: "all 0.5s ease",
+						width: "100%",
+						// borderRadius: "2rem 2rem 2rem 2rem",
+						"&:hover": {
+							transform: "translate(-5px, -5px)",
+							boxShadow: 10,
+						},
+					}}
+				>
+					{/* <SvgIcon sx={{ height: "5rem", width: "5rem", color: "base.main" }}>
+									<PsychologyAltIcon />
+								</SvgIcon>
+								<Typography variant="h4" color={"base.main"} textAlign="center">
+									Ayuda
+								</Typography> */}
+				</Box>
+			</Grid>
+		</Grid>
+	</Grid>
+
+	<Grid
+		item
+		xs={12}
+		sm={12}
+		md={6}
+		lg={6}
+		sx={{ height: "100%", paddingTop: "0 !important" }}
+		minHeight="40rem"
+	>
+		<Grid container spacing={5} sx={{ height: "100%" }}>
+			<Grid item xs={12} sx={{ height: "33%" }} minHeight="8rem">
+				<Box
+					boxShadow={shadow}
+					display="flex"
+					flexDirection={"column"}
+					justifyContent={"center"}
+					alignItems="center"
+					borderRadius={borde}
+					sx={{
+						cursor: "pointer",
+						backgroundColor: "primary.main",
+						height: "100%",
+						transition: "all 0.5s ease",
+						width: "100%",
+						// borderRadius: "2rem 2rem 2rem 2rem",
+						"&:hover": {
+							transform: "translate(-5px, -5px)",
+							boxShadow: 10,
+						},
+					}}
+				>
+					{/* <SvgIcon sx={{ height: "5rem", width: "5rem", color: "base.main" }}>
+									<BarChartIcon />
+								</SvgIcon>
+								<Typography variant="h4" color={"base.main"} textAlign="center">
+									Resultados
+								</Typography> */}
+				</Box>
+			</Grid>
+			<Grid item xs={12} sx={{ height: "33%" }} minHeight="8rem">
+				<Box
+					boxShadow={shadow}
+					display="flex"
+					flexDirection={"column"}
+					justifyContent={"center"}
+					alignItems="center"
+					borderRadius={borde}
+					sx={{
+						cursor: "pointer",
+						backgroundColor: "primary.main",
+						height: "100%",
+						transition: "all 0.5s ease",
+						width: "100%",
+						// borderRadius: "2rem 2rem 2rem 2rem",
+						"&:hover": {
+							transform: "translate(-5px, -5px)",
+							boxShadow: 10,
+						},
+					}}
+				>
+					{/* <SvgIcon sx={{ height: "5rem", width: "5rem", color: "base.main" }}>
+									<DomainVerificationIcon />
+								</SvgIcon>
+								<Typography variant="h4" color={"base.main"} textAlign="center">
+									Verificación de mi voto
+								</Typography> */}
+				</Box>
+			</Grid>
+			<Grid item xs={12} sx={{ height: "33%" }} minHeight="8rem">
+				<Box
+					boxShadow={shadow}
+					display="flex"
+					flexDirection={"column"}
+					justifyContent={"center"}
+					alignItems="center"
+					borderRadius={borde}
+					sx={{
+						cursor: "pointer",
+						backgroundColor: "primary.main",
+						height: "100%",
+						transition: "all 0.5s ease",
+						width: "100%",
+						// borderRadius: "2rem 2rem 2rem 2rem",
+						"&:hover": {
+							transform: "translate(-5px, -5px)",
+							boxShadow: 10,
+						},
+					}}
+				>
+					{/* <SvgIcon sx={{ height: "5rem", width: "5rem", color: "base.main" }}>
+									<InfoIcon />
+								</SvgIcon>
+								<Typography variant="h4" color={"base.main"} textAlign="center">
+									Acerca de
+								</Typography> */}
+				</Box>
+			</Grid>
+		</Grid>
+	</Grid>
+</Grid>;
+
+// VERSION 2
+<Grid container spacing={{ xs: 2, sm: 2, md: 5 }} minHeight={{ xs: "100%", md: "520px" }}>
+	<Grid item xs={12} sm={12} md={6} sx={{ height: { xs: "8rem", sm: "8rem", md: "11rem" } }}>
+		<Box
+			boxShadow={shadow}
+			display="flex"
+			flexDirection={"column"}
+			justifyContent={"center"}
+			alignItems="center"
+			borderRadius={borde}
+			sx={{
+				cursor: "pointer",
+				backgroundColor: "primary.main",
+				height: {
+					xs: "11rem",
+					sm: "11rem",
+					md: "230%",
+					lg: "230%",
+					xl: "280%",
+				},
+				transition: "all 0.5s ease",
+				width: "100%",
+				// borderRadius: "2rem 2rem 2rem 2rem",
+				"&:hover": {
+					transform: "translate(-5px, -5px)",
+					boxShadow: 10,
+				},
+			}}
+		>
+			<SvgIcon sx={{ height: "6rem", width: "6rem", color: "base.main" }}>
+				<HowToVoteIcon />
+			</SvgIcon>
+			<Typography variant="h3" color={"base.main"} textAlign="center">
+				Votar
+			</Typography>
+		</Box>
+	</Grid>
+
+	<Grid item xs={6} sm={6} md={6} sx={{ minHeight: { xs: "7rem", sm: "7rem", md: "11rem" } }}>
+		<Box
+			boxShadow={shadow}
+			display="flex"
+			flexDirection={"column"}
+			justifyContent={"center"}
+			alignItems="center"
+			borderRadius={borde}
+			sx={{
+				cursor: "pointer",
+				backgroundColor: "primary.main",
+				height: "100%",
+				transition: "all 0.5s ease",
+				width: "100%",
+				// borderRadius: "2rem 2rem 2rem 2rem",
+				"&:hover": {
+					transform: "translate(-5px, -5px)",
+					boxShadow: 10,
+				},
+			}}
+		>
+			<SvgIcon
+				sx={{
+					height: { xs: "3rem", md: "5rem" },
+					width: "5rem",
+					color: "base.main",
+				}}
+			>
+				<BarChartIcon />
+			</SvgIcon>
+			<Typography
+				variant="h4"
+				color={"base.main"}
+				textAlign="center"
+				fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+			>
+				Resultados
+			</Typography>
+		</Box>
+	</Grid>
+
+	<Grid item xs={6} sm={6} md={6} sx={{ minHeight: { xs: "7rem", sm: "7rem", md: "11rem" } }}>
+		<Box
+			boxShadow={shadow}
+			display="flex"
+			flexDirection={"column"}
+			justifyContent={"center"}
+			alignItems="center"
+			borderRadius={borde}
+			sx={{
+				cursor: "pointer",
+				backgroundColor: "primary.main",
+				height: { xs: "100%", sm: "100%", md: "100%" },
+				display: { xs: "flex", sm: "flex", md: "none" },
+				transition: "all 0.5s ease",
+				width: "100%",
+				// borderRadius: "2rem 2rem 2rem 2rem",
+				"&:hover": {
+					transform: "translate(-5px, -5px)",
+					boxShadow: 10,
+				},
+			}}
+		>
+			<SvgIcon
+				sx={{
+					width: "5rem",
+					color: "base.main",
+					display: "flex",
+					textAlign: "center",
+					justifyContent: "center",
+					justifyItems: "center",
+					height: { xs: "3rem", md: "5rem" },
+				}}
+			>
+				<DomainVerificationIcon />
+			</SvgIcon>
+			<Typography
+				variant="h4"
+				color={"base.main"}
+				textAlign="center"
+				fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+			>
+				Verificar mi voto
+			</Typography>
+		</Box>
+	</Grid>
+
+	<Grid item xs={6} sm={6} md={6} sx={{ minHeight: { xs: "7rem", sm: "7rem", md: "11rem" } }}>
+		<Box
+			boxShadow={shadow}
+			display="flex"
+			flexDirection={"column"}
+			justifyContent={"center"}
+			alignItems="center"
+			borderRadius={borde}
+			sx={{
+				cursor: "pointer",
+				backgroundColor: "primary.main",
+				height: "100%",
+				transition: "all 0.5s ease",
+				width: "100%",
+				// borderRadius: "2rem 2rem 2rem 2rem",
+				"&:hover": {
+					transform: "translate(-5px, -5px)",
+					boxShadow: 10,
+				},
+			}}
+		>
+			<SvgIcon
+				sx={{
+					width: "5rem",
+					color: "base.main",
+					height: { xs: "3rem", md: "5rem" },
+				}}
+			>
+				<PsychologyAltIcon />
+			</SvgIcon>
+			<Typography
+				variant="h4"
+				color={"base.main"}
+				textAlign="center"
+				fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+			>
+				Ayuda
+			</Typography>
+		</Box>
+	</Grid>
+
+	<Grid item xs={6} sm={6} md={6} sx={{ minHeight: { xs: "7rem", sm: "7rem", md: "11rem" } }}>
+		<Box
+			boxShadow={shadow}
+			display="flex"
+			flexDirection={"column"}
+			justifyContent={"center"}
+			alignItems="center"
+			borderRadius={borde}
+			sx={{
+				cursor: "pointer",
+				backgroundColor: "primary.main",
+				height: "100%",
+				transition: "all 0.5s ease",
+				width: "100%",
+				// borderRadius: "2rem 2rem 2rem 2rem",
+				"&:hover": {
+					transform: "translate(-5px, -5px)",
+					boxShadow: 10,
+				},
+			}}
+		>
+			<SvgIcon
+				sx={{
+					width: "5rem",
+					color: "base.main",
+					height: { xs: "3rem", md: "5rem" },
+				}}
+			>
+				<InfoIcon />
+			</SvgIcon>
+			<Typography
+				variant="h4"
+				color={"base.main"}
+				textAlign="center"
+				fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+			>
+				Acerca de
+			</Typography>
+		</Box>
+	</Grid>
+
+	<Grid
+		item
+		xs={6}
+		sm={6}
+		md={6}
+		display={{ xs: "none", md: "flex" }}
+		sx={{ minHeight: { xs: "7rem", sm: "7rem", md: "11rem" } }}
+	>
+		<Box
+			boxShadow={shadow}
+			display="flex"
+			flexDirection={"column"}
+			justifyContent={"center"}
+			alignItems="center"
+			borderRadius={borde}
+			sx={{
+				display: { xs: "none", md: "flex" },
+				cursor: "pointer",
+				backgroundColor: "primary.main",
+				height: "100%",
+				transition: "all 0.5s ease",
+				width: "100%",
+				// borderRadius: "2rem 2rem 2rem 2rem",
+				"&:hover": {
+					transform: "translate(-5px, -5px)",
+					boxShadow: 10,
+				},
+			}}
+		>
+			<SvgIcon
+				sx={{
+					width: "5rem",
+					color: "base.main",
+					height: { xs: "3rem", md: "5rem" },
+				}}
+			>
+				<PsychologyAltIcon />
+			</SvgIcon>
+			<Typography
+				variant="h4"
+				color={"base.main"}
+				textAlign="center"
+				fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+			>
+				Ayuda
+			</Typography>
+		</Box>
+	</Grid>
+</Grid>;
